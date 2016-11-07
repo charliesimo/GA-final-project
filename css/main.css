@@ -33,8 +33,41 @@ img {
 /*******************************************/
 
 .site-container {
-	max-width: 960px;
+	max-width: 1080px;
 	margin: 0 auto;
+	background-color: #fff;
+	height: 1500px;
+}
+
+.logo {
+	max-height: 80px;
+	padding-top: 25px;
+	padding-left: 30px;
+}
+
+html {
+	background-color: #eee;
+}
+
+span a {
+	margin-right: 30px;
+	text-align: left;
+	font-size: 20px;
+	color: #B9DDC4;
+	float: right;
+	padding-top: 40px;
+	text-decoration: none;
+	}
+
+span a:hover {
+	color: #008D37;
+	text-decoration: underline;
+}
+
+h1 {
+	display: inline-block;
+	padding: 20px;
+	margin: 0px;
 }
 
 .site-header {
